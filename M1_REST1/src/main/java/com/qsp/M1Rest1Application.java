@@ -35,11 +35,4 @@ public class M1Rest1Application {
 	public static void main(String[] args) {
 		SpringApplication.run(M1Rest1Application.class, args);
 	}
-	
-	 @Bean
-	 public RestTemplate restTemplate() {
-	       return new RestTemplate();
-	   }
-	
-
 }
